@@ -54,3 +54,13 @@
     cursor: pointer;
     box-shadow: 0px 0px 5px 5px whitesmoke;
 }
+.front_container{
+    display: flex;
+}
+.img_front{
+    height: 798px;
+    width: 100%;
+}
+.img_divison{
+   width: 50%;
+}
