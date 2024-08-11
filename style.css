@@ -85,3 +85,59 @@ h3{
     color: #ff8e3c;
     font-weight: bold;
 }
+.menu-container{
+    display: flex;
+}
+.cards{
+    height: 400px;
+    width: 400px;
+     border: solid #ff8e3c 7px;
+     border-radius: 30px;
+     overflow: hidden;
+     position: relative;
+}
+.cards:hover{
+    cursor: pointer;
+}
+.img_card{
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+}
+.card_info{
+    height: 40px;
+    width: 400px;
+    padding: 6px;
+    bottom: 1px;
+    position: absolute;
+   background-color: #ffaa80;
+    color: black;
+    box-sizing: border-box; 
+}
+.heading{
+    font-size: 25px;
+    margin:10px;
+    text-align: center;
+    font-family:"Bona Nova SC";
+}
+.info{
+    font-size: 15px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+    text-align: center;
+    font-family: monospace;
+}
+.cards:hover .card_info{
+    height: 120px;
+    background-color: #ffaa80;
+    color: black;
+}
+.cards:hover .info{
+    visibility: visible;
+    opacity: 1;
+}
+.card:hover{
+    transform: scale(1.1);
+}
