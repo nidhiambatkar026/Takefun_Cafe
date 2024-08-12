@@ -176,3 +176,17 @@ h3{
     color: #ff8e3c;
     font-family:"Bona Nova SC";
 }
+.connect{
+    text-align: center;
+    font-size: 25px;
+}
+footer{
+    text-align: center;
+    background-color: #ff8e3c;
+    height: 150px;
+    color: black;
+    align-content: center;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 30px;
+}
