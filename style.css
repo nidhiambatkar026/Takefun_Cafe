@@ -11,7 +11,7 @@
     margin-right: 500px;
 }
 .opt{
-    margin-right: 35px;
+    margin-right: 50px;
     text-decoration: none;
     color: black;
     font-size: 30px;
@@ -80,13 +80,15 @@ h3{
     text-align: center;
 }
 .name-item{
-    font-size: 25px;
+    font-size: 30px;
     padding-left: 10px;
     color: #ff8e3c;
     font-weight: bold;
 }
 .menu-container{
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .cards{
     height: 400px;
