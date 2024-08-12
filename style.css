@@ -1,3 +1,4 @@
+
 .header{
     background-color: whitesmoke;
     height: 70px;
@@ -112,7 +113,7 @@ h3{
     padding: 6px;
     bottom: 1px;
     position: absolute;
-   background-color: #ffaa80;
+   background-color: #ffddcc;
     color: black;
     box-sizing: border-box; 
 }
@@ -133,7 +134,7 @@ h3{
 }
 .cards:hover .card_info{
     height: 120px;
-    background-color: #ffaa80;
+    background-color: #ffddcc;
     color: black;
 }
 .cards:hover .info{
@@ -142,4 +143,36 @@ h3{
 }
 .card:hover{
     transform: scale(1.1);
+}
+.chef_container{
+    display: flex;
+}
+.card_chef{
+    height: 300px;
+    width: 400px;
+    border: #ff8e3c solid 7px;
+    border-radius: 25px;
+    position: relative;
+    background-color: #ffddcc;
+    margin-left: 160px;
+}
+
+.img_chef{
+    height: 200px;
+    width: 190px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: -50px;
+    left: 90px;
+    border: #ff8e3c solid 7px;
+}
+.text{
+    margin-top: 210px;
+    text-align: center;
+}
+.chef-name{
+    font-size: 30px;
+    color: #ff8e3c;
+    font-family:"Bona Nova SC";
 }
