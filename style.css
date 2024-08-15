@@ -141,8 +141,9 @@ h3{
     visibility: visible;
     opacity: 1;
 }
-.card:hover{
+.cards:hover{
     transform: scale(1.1);
+    transition: 1s;
 }
 .chef_container{
     display: flex;
